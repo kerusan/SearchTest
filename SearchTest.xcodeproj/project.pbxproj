@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A695568613B3848E00BC3AFF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A695568513B3848E00BC3AFF /* UIKit.framework */; };
+		A695568813B3848E00BC3AFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A695568713B3848E00BC3AFF /* Foundation.framework */; };
+		A695568A13B3848E00BC3AFF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A695568913B3848E00BC3AFF /* CoreGraphics.framework */; };
+		A695569013B3848E00BC3AFF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A695568E13B3848E00BC3AFF /* InfoPlist.strings */; };
+		A695569313B3848E00BC3AFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A695569213B3848E00BC3AFF /* main.m */; };
+		A695569613B3848E00BC3AFF /* SearchTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A695569513B3848E00BC3AFF /* SearchTestAppDelegate.m */; };
+		A695569913B3848E00BC3AFF /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A695569713B3848E00BC3AFF /* MainWindow.xib */; };
+		A695569C13B3848E00BC3AFF /* SearchTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A695569B13B3848E00BC3AFF /* SearchTestViewController.m */; };
+		A695569F13B3848E00BC3AFF /* SearchTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A695569D13B3848E00BC3AFF /* SearchTestViewController.xib */; };
+		A69556A713B386E800BC3AFF /* OOSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A69556A613B386E800BC3AFF /* OOSearchBar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A695568113B3848E00BC3AFF /* SearchTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A695568513B3848E00BC3AFF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A695568713B3848E00BC3AFF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A695568913B3848E00BC3AFF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A695568D13B3848E00BC3AFF /* SearchTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SearchTest-Info.plist"; sourceTree = "<group>"; };
+		A695568F13B3848E00BC3AFF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A695569113B3848E00BC3AFF /* SearchTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SearchTest-Prefix.pch"; sourceTree = "<group>"; };
+		A695569213B3848E00BC3AFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A695569413B3848E00BC3AFF /* SearchTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchTestAppDelegate.h; sourceTree = "<group>"; };
+		A695569513B3848E00BC3AFF /* SearchTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchTestAppDelegate.m; sourceTree = "<group>"; };
+		A695569813B3848E00BC3AFF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		A695569A13B3848E00BC3AFF /* SearchTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchTestViewController.h; sourceTree = "<group>"; };
+		A695569B13B3848E00BC3AFF /* SearchTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchTestViewController.m; sourceTree = "<group>"; };
+		A695569E13B3848E00BC3AFF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SearchTestViewController.xib; sourceTree = "<group>"; };
+		A69556A513B386E800BC3AFF /* OOSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = OOSearchBar.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		A69556A613B386E800BC3AFF /* OOSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = OOSearchBar.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A695567E13B3848E00BC3AFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A695568613B3848E00BC3AFF /* UIKit.framework in Frameworks */,
+				A695568813B3848E00BC3AFF /* Foundation.framework in Frameworks */,
+				A695568A13B3848E00BC3AFF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A695567613B3848D00BC3AFF = {
+			isa = PBXGroup;
+			children = (
+				A695568B13B3848E00BC3AFF /* SearchTest */,
+				A695568413B3848E00BC3AFF /* Frameworks */,
+				A695568213B3848E00BC3AFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A695568213B3848E00BC3AFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A695568113B3848E00BC3AFF /* SearchTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A695568413B3848E00BC3AFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A695568513B3848E00BC3AFF /* UIKit.framework */,
+				A695568713B3848E00BC3AFF /* Foundation.framework */,
+				A695568913B3848E00BC3AFF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A695568B13B3848E00BC3AFF /* SearchTest */ = {
+			isa = PBXGroup;
+			children = (
+				A695569413B3848E00BC3AFF /* SearchTestAppDelegate.h */,
+				A695569513B3848E00BC3AFF /* SearchTestAppDelegate.m */,
+				A695569713B3848E00BC3AFF /* MainWindow.xib */,
+				A695569A13B3848E00BC3AFF /* SearchTestViewController.h */,
+				A695569B13B3848E00BC3AFF /* SearchTestViewController.m */,
+				A69556A513B386E800BC3AFF /* OOSearchBar.h */,
+				A69556A613B386E800BC3AFF /* OOSearchBar.m */,
+				A695569D13B3848E00BC3AFF /* SearchTestViewController.xib */,
+				A695568C13B3848E00BC3AFF /* Supporting Files */,
+			);
+			path = SearchTest;
+			sourceTree = "<group>";
+		};
+		A695568C13B3848E00BC3AFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A695568D13B3848E00BC3AFF /* SearchTest-Info.plist */,
+				A695568E13B3848E00BC3AFF /* InfoPlist.strings */,
+				A695569113B3848E00BC3AFF /* SearchTest-Prefix.pch */,
+				A695569213B3848E00BC3AFF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A695568013B3848E00BC3AFF /* SearchTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A69556A213B3848E00BC3AFF /* Build configuration list for PBXNativeTarget "SearchTest" */;
+			buildPhases = (
+				A695567D13B3848E00BC3AFF /* Sources */,
+				A695567E13B3848E00BC3AFF /* Frameworks */,
+				A695567F13B3848E00BC3AFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SearchTest;
+			productName = SearchTest;
+			productReference = A695568113B3848E00BC3AFF /* SearchTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A695567813B3848D00BC3AFF /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = A695567B13B3848D00BC3AFF /* Build configuration list for PBXProject "SearchTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A695567613B3848D00BC3AFF;
+			productRefGroup = A695568213B3848E00BC3AFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A695568013B3848E00BC3AFF /* SearchTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A695567F13B3848E00BC3AFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A695569013B3848E00BC3AFF /* InfoPlist.strings in Resources */,
+				A695569913B3848E00BC3AFF /* MainWindow.xib in Resources */,
+				A695569F13B3848E00BC3AFF /* SearchTestViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A695567D13B3848E00BC3AFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A695569313B3848E00BC3AFF /* main.m in Sources */,
+				A695569613B3848E00BC3AFF /* SearchTestAppDelegate.m in Sources */,
+				A695569C13B3848E00BC3AFF /* SearchTestViewController.m in Sources */,
+				A69556A713B386E800BC3AFF /* OOSearchBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A695568E13B3848E00BC3AFF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A695568F13B3848E00BC3AFF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A695569713B3848E00BC3AFF /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A695569813B3848E00BC3AFF /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		A695569D13B3848E00BC3AFF /* SearchTestViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A695569E13B3848E00BC3AFF /* en */,
+			);
+			name = SearchTestViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A69556A013B3848E00BC3AFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A69556A113B3848E00BC3AFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		A69556A313B3848E00BC3AFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SearchTest/SearchTest-Prefix.pch";
+				INFOPLIST_FILE = "SearchTest/SearchTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A69556A413B3848E00BC3AFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SearchTest/SearchTest-Prefix.pch";
+				INFOPLIST_FILE = "SearchTest/SearchTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A695567B13B3848D00BC3AFF /* Build configuration list for PBXProject "SearchTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A69556A013B3848E00BC3AFF /* Debug */,
+				A69556A113B3848E00BC3AFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A69556A213B3848E00BC3AFF /* Build configuration list for PBXNativeTarget "SearchTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A69556A313B3848E00BC3AFF /* Debug */,
+				A69556A413B3848E00BC3AFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A695567813B3848D00BC3AFF /* Project object */;
+}
