@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SearchTestViewController : UIViewController {
-    
+@interface SearchTestViewController : UIViewController <UISearchBarDelegate> {
+    BOOL canceled;
 }
 
 @end

@@ -3,7 +3,6 @@
 //  SearchTest
 //
 //  Created by Kjell Nilsson on 2011-06-23.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
 #import "SearchTestViewController.h"
@@ -25,19 +24,29 @@
 
 #pragma mark - UISearchBarController delegate methods
 
-- (void)searchBarTextDidBeginEditing:(UISearchBar *)searchBar {
-    // Called when text ends editing
+- (void)searchBarCancelButtonClicked:(UISearchBar*)searchBar {                    
+    // Called when cancel button pressed
     if ([searchBar isKindOfClass:[OOSearchBar class]]) {
+        canceled = YES;
         [(OOSearchBar*)searchBar stopAnimating:self];
     }
 }
 
-- (void)searchBarTextDidEndEditing:(UISearchBar *)searchBar {
+- (void)searchBarTextDidBeginEditing:(UISearchBar*)searchBar {
     // Called when text ends editing
     if ([searchBar isKindOfClass:[OOSearchBar class]]) {
+        canceled = NO;
+        [(OOSearchBar*)searchBar stopAnimating:self];
+    }
+}
+
+- (BOOL)searchBarShouldEndEditing:(UISearchBar*)searchBar {
+    // Called when text ends editing
+    if ((canceled == NO) && ([searchBar isKindOfClass:[OOSearchBar class]])) {
         [(OOSearchBar*)searchBar startAnimating:self];
         [(OOSearchBar*)searchBar performSelector:@selector(stopAnimating:) withObject:self afterDelay:10.0f];        
     }
+    return YES;
 }
 
 @end
